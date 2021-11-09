@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="points-o">O: 0</div>
+        <div class="turn">Turn: O</div>
+        <div class="points-x">X: 0</div>
+    </header>
+    <div class="game-wrapper gradient">
+        <div class="board">
+            <div class="field" data-x="0" data-y="0">
+                <p></p>
+            </div>
+            <div class="field" data-x="1" data-y="0">
+                <p></p>
+            </div>
+            <div class="field" data-x="2" data-y="0">
+                <p></p>
+            </div>
+            <div class="field" data-x="0" data-y="1">
+                <p></p>
+            </div>
+            <div class="field" data-x="1" data-y="1">
+                <p></p>
+            </div>
+            <div class="field" data-x="2" data-y="1">
+                <p></p>
+            </div>
+            <div class="field" data-x="0" data-y="2">
+                <p></p>
+            </div>
+            <div class="field" data-x="1" data-y="2">
+                <p></p>
+            </div>
+            <div class="field" data-x="2" data-y="2">
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <div class="toggle-darkmode">
+        <label class="toggle-backtrack" for="darkmode">
+            <span class="toggle-thumb"></span>
+        </label>
+        <input type="checkbox" name="darkmode" id="darkmode">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
